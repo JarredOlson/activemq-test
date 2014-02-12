@@ -90,8 +90,10 @@ Grails Communicating With ActiveMQ
 ==================================
 
 Two Plugins that I used (added in BuildConfig.groovy plugins section):
-        compile ":routing:1.2.9" //provides apache camel integration
-        compile ':routing-jms:1.2.0' //routing-jms basically facilitates a connection to activemq through (grails.plugin.routing.jms.brokerURL) property in Config.groovy
+
+    compile ":routing:1.2.9" //provides apache camel integration
+
+    compile ':routing-jms:1.2.0' //routing-jms basically facilitates a connection to activemq through (grails.plugin.routing.jms.brokerURL) property in Config.groovy
 
 
 
