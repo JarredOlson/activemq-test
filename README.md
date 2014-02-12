@@ -22,6 +22,7 @@ bin/activemq stop
 
 ActiveMQ Simple Security setup.
 In the configuration file you can add code similar to the following to your broker definition to add some simple security.
+The default location for the config file using brew is: /usr/local/Cellar/activemq/5.8.0/libexec/conf/activemq.xml
 
    <destinations>
       <queue physicalName="FOO.BAR" />
